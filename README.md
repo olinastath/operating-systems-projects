@@ -20,7 +20,7 @@ The objective of this lab was to simulate linking, relocating relative addresses
 
 #### Lab 2: Scheduling Lab
 The objective of this lab was to simulate scheduling in order to see how the time required depends on the scheduling algorithm
-and the request patterns. The scheduling algorithms I implemented are FCFS, RR with quntum 2, LCFS, and SRTN.
+and the request patterns. The scheduling algorithms I implemented are FCFS, RR with quantum 2, LCFS, and SRTN.
 
 #### Lab 3: Banker Lab
 The objective of this lab was to simulate resource allocation using both an optimistic resource manager and the banker's algorithm.
