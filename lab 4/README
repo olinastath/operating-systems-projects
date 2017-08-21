@@ -1,0 +1,25 @@
+Olina Stathopoulou is1235
+
+Operating Systems - Lab 4
+
+This program accepts arguments through standard input.
+
+Navigate to the correct path in which the program files are and execute:
+> javac Paging.java
+
+To run this program, execute:
+> java Banker 0 0 0 0 0 algorithm 0
+
+where the values, in order, should be:
+- machine size
+- page size
+- size per process
+- job mix (values 1 or 4) 
+- references per process
+- replacement algorithm (fifo, random, or lru, case-sensitive)
+- level of debugging (0 for none, 1 for full - didn't add the random values)
+
+Please make sure the file of random numbers is in the path, titled "random-numbers.txt"
+
+** NOTE **
+Inputs 14 and 16 take a really long time to finish (like 7 minutes). I'm not sure why that is, but the results are correct, so if you could wait for them to finish, I promise they do!! I couldn't figure out how to fix it in time. Thank you and sorry. 

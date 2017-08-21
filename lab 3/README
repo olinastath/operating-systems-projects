@@ -1,0 +1,13 @@
+This program accepts arguments through a file.
+
+Navigate to the correct path in which the program files are and execute:
+> javac Banker.java
+
+To run this program, execute:
+> java Banker <input-filename>
+
+where the <input-filename> includes the file extension .txt
+
+For the purpose of testing and debugging, I added a --verbose flag that prints the detailed output. I left my code for that in the program, so you could also execute the following if you want the detailed output:
+
+> java Banker --verbose <input-filename>

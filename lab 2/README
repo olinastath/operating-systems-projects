@@ -1,0 +1,19 @@
+This program accepts arguments through a file.
+
+Navigate to the correct path in which the program files are and execute:
+
+> javac Scheduling.java
+
+
+There are multiple ways of running this program:
+
+> java Scheduling <input-filename>
+This will prompt the user to select a type of sorting algorithm and will keep requesting one if it is not one of the given options. It will then execute the algorithm on the input file.
+
+> java Scheduling <type-of-algorithm> <input-filename>
+This will execute the specified type of sorting algorithm on the input file. Possible types are FCFS, RR, LCFS, and PSJF. If the type is misspelled, a prompt will show up and ask the user to input the type of sorting algorithm to use into the console.
+
+
+> java Scheduling --verbose <input-filename>
+> java Scheduling --verbose <type-of-algorithm> <input-filename>
+These commands will work the same way as specified above, but the --verbose flag will print the detailed output instead of just the summary.
